@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elaborate Chat Integration</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="light_mode">
+  <header class="header">
+    <div class="brand">
+      <img src="./images/footer-logo.png" alt="Elaborate Logo" class="brand-logo">
+      <h1 class="title">Elaborate Gemini</h1>
+    </div>
+    <p class="subtitle">Ask me anything!</p>
+  </header>
+
+  <main>
+    <!-- Chat List / Container -->
+    <div class="chat-list"></div>
+
+    <!-- Typing Area -->
+    <div class="typing-area">
+      <form action="#" class="typing-form">
+        <div class="input-wrapper">
+          <input type="text" placeholder="Enter a prompt here" class="typing-input"/>
+          <button id="send-message-button" class="icon material-symbols-rounded">send</button>
+        </div>
+        <div class="action-buttons">
+          <span id="toggle-theme-button" class="icon material-symbols-rounded">dark_mode</span>
+          <span id="delete-chat-button" class="icon material-symbols-rounded">delete</span>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p class="disclaimer-text">
+      Elaborate Chat may display inaccurate info, so double-check its responses.
+    </p>
+  </footer>
+</body>
+</html>
