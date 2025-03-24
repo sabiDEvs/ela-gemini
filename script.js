@@ -162,11 +162,3 @@ typingForm.addEventListener("submit", (e) => {
 
 // Load data from local storage on page load
 loadDataFromLocalstorage();
-
-const listModels = async () => {
-  const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`);
-  const data = await response.json();
-  console.log(data);
-};
-
-listModels();
